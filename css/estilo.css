@@ -1,0 +1,90 @@
+body {    
+    background: #5F9EA0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+}
+
+.categorias {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+
+
+.pizzas, .bebidas, .sobremesas {
+    margin: 5px 10px;
+    background: aliceblue;
+    padding: 0 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    text-decoration: underline;
+    margin-left: 40px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;   
+    line-height: 25px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-weight: bold;  
+    transition-duration: 0.4s; 
+}
+
+button:hover {
+    background-color: #273036;
+    color: #FFFFFF;    
+}
+
+button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+.contato {
+    background: #273036;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;    
+    text-align: center;
+    padding: 12px 0;    
+}
+
+
+
